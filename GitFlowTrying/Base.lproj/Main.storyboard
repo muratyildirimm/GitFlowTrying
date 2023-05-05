@@ -21,12 +21,25 @@
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Button"/>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Tj9-r5-IVQ">
+                                <rect key="frame" x="184" y="190" width="42" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="42" id="qsK-56-xUi"/>
+                                    <constraint firstAttribute="height" constant="21" id="wSx-nV-y7z"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="0Uh-I6-RLa" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="1bj-D8-FEa"/>
                             <constraint firstItem="0Uh-I6-RLa" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="2Yj-xl-QKg"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Tj9-r5-IVQ" secondAttribute="trailing" constant="167" id="5cp-0X-Yft"/>
+                            <constraint firstItem="Tj9-r5-IVQ" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="131" id="PqB-h8-eLq"/>
+                            <constraint firstItem="Tj9-r5-IVQ" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="184" id="kKn-BI-xgU"/>
                         </constraints>
                     </view>
                 </viewController>
