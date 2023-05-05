@@ -14,6 +14,8 @@ class ViewController: UIViewController {
     print("hello")
     print("homepage branchında label eklndi")
     print("newbranche geçtim")
+    print("forka gecildi second branch")
+    print("aaaa")
   }
 
 
