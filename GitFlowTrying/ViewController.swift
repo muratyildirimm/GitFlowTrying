@@ -13,6 +13,7 @@ class ViewController: UIViewController {
     super.viewDidLoad()
     print("hello")
     print("homepage branchında label eklndi")
+    print("newbranche geçtim")
   }
 
 
